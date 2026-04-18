@@ -23,3 +23,11 @@ Hey project ek professional MNC-standard Java application aahe, jyat **Spring Bo
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/vikaspaithane/Redis.git](https://github.com/vikaspaithane/Redis.git)
+
+🔌 API Endpoints
+
+Method  Endpoint                  Description
+POST     /api/v1/employees       Save a new employee
+ GET     /api/v1/employees        Fetch all employees
+GET      /api/v1/employees/{id}   Get employee by ID (Cached)
+PUT      /api/v1/employees/{id}   Update employee data
