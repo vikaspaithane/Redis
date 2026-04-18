@@ -1,11 +1,25 @@
-Project Name: Redis Implementation with Spring Boot.
+# Spring Boot Redis Implementation 🚀
 
-Tech Stack: Java 17, Spring Boot 3, Redis, MySQL, Docker.
+Hey project ek professional MNC-standard Java application aahe, jyat **Spring Boot**, **Redis Cache**, ani **Docker** cha vapar kela aahe.
 
-How to Run:
+## 🛠 Tech Stack
+* **Java:** 17
+* **Framework:** Spring Boot 3.x
+* **Database:** MySQL
+* **Caching:** Redis (Spring Data Redis)
+* **Build Tool:** Maven
+* **Containerization:** Docker & Docker Compose
 
-docker-compose up
+## 🚀 Key Features
+- **CRUD Operations:** Complete Employee management.
+- **Caching Strategy:**
+  - `@Cacheable`: Faster data retrieval for IDs.
+  - `@CacheEvict`: Auto-refreshing cache on data updates/save.
+- **Logging:** Slf4j with MNC-standard logging formats.
+- **Production Ready:** Includes Dockerfile and Docker Compose setup.
 
-mvn spring-boot:run
+## 📦 How to Run
 
-API Endpoints: GET /api/v1/employees, etc.
+### 1. Clone the repository
+```bash
+git clone [https://github.com/vikaspaithane/Redis.git](https://github.com/vikaspaithane/Redis.git)
